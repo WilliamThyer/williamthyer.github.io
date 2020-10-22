@@ -7,7 +7,7 @@ author_profile: true
 
 ### 2020<br/>
 *Feature-Independent Tracking of the Number of Items in Visual Working Memory using Multivariate Decoding from EEG*<br/>
-[Video](https://www.youtube.com/watch?v=smdhRmxSA_c)<br/>
+[Video](https://www.youtube.com/watch?v=smdhRmxSA_c),
 [Slides](https://docs.google.com/presentation/d/1fThOcczawe3LWS3fQMEk4E8q1OWTLhAI32Sk1qv-5hw/present?slide=id.g87429b2e8b_0_612)<br/>
 Virtual Working Memory Symposium 
 
