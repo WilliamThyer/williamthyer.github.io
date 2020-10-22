@@ -1,10 +1,10 @@
 ---
 layout: archive
+title: "Talks"
 permalink: /talks/
 author_profile: true
 ---
 
-# Talks<br/>
 ### 2020<br/>
 *Feature-Independent Tracking of the Number of Items in Visual Working Memory using Multivariate Decoding from EEG*<br/>
 [Video](https://www.youtube.com/watch?v=smdhRmxSA_c)<br/>
