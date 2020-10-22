@@ -4,7 +4,7 @@ permalink: /talks/
 author_profile: true
 ---
 
-## Talks<br/>
+# Talks<br/>
 ### 2020<br/>
 *Feature-Independent Tracking of the Number of Items in Visual Working Memory using Multivariate Decoding from EEG*<br/>
 [Video](https://www.youtube.com/watch?v=smdhRmxSA_c)<br/>
@@ -12,7 +12,7 @@ author_profile: true
 Virtual Working Memory Symposium 
 
 
-## Posters<br/>
+# Posters<br/>
 ### 2020<br/>
 *Decoding Feature-Independent Visual Working Memory Load from Human EEG*<br/>
 [Poster](http://williamthyer.github.io/files/thyer_vss_2020.pdf)<br/>
