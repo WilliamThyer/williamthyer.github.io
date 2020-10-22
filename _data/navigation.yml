@@ -3,6 +3,9 @@ main:
   - title: "Publications"
     url: /publications/ 
     
+  - title: "Presentations"
+    url: /talks/
+    
   - title: "Blog Posts"
     url: /year-archive/
     
