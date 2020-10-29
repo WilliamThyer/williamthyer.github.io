@@ -32,7 +32,6 @@ plt.scatter(0,0,s=70000,marker='o',facecolors='none', edgecolors='k') #plotting 
 plt.scatter(0,1.3,marker='^',s=750, facecolors='none',edgecolors='k') # plotting "nose"
 plt.ylim(-1.5,1.75)
 plt.axis('off')
-plt.savefig('coef_scatter.png',dpi=500)
 ```
 ![Alt Text](https://williamthyer.github.io/images/coef_scatter.png)
 
