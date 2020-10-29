@@ -10,6 +10,8 @@ tags:
   - matplotlib
 ---
 
+I created a script that takes in coefficients from a series of EEG classification models, and project the coefficients on the scalp over time using `scipy.interpolate` and `matplotlib.animation`.
+
 I've wanted an excuse to play around with matplotlib animations and scipy's interpolation functionality. In the past, I've just outputted each frame as a .png and then uploaded them all to a gif-making website... Not ideal!
 
 First, I'll briefly describe the data I'm working with. These are coefficients from a ordinal logistic regression model that classifies EEG data. EEG is electrical activity recorded from an array of electrodes on the scalp. It generally represents synchronous activity in the brain. Without going into too much detail, this model classifies the number of items an individual is holding in their visual working memory. A separate model is trained at each timepoint, with the array of electrodes as the predictors. 
@@ -71,5 +73,5 @@ I opted to use Pillow just because I already had it installed. I tested a few fr
 
 This is an interesting way of assessing my model. It allows me to see which regions of electrodes contribute to the model's predictions the most at each timepoint. The coefficients are scattered before 0 ms because that is actually before the participant evens sees the memory array. Around 150 ms I can see that rear electrodes are very heavily weighted. Then after around 400 ms this pattern becomes much more distributed.
 
-I suspect variations on this visualization could be useful for any time-series classification/regression model that has spatial information. I'm glad that I tried this project that got me using two tools I've been interested in for a while. 
+I suspect variations on this visualization could be useful for any time-series classification/regression model that has spatial information. I'm glad that I tried this project because it got me using two tools I've been interested in for a while. 
 
