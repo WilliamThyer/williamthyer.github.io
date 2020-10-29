@@ -27,7 +27,8 @@ That is a numpy array of shape: (n_subjects, n_cross_val_iters, n_timepoints, n_
 
 ```python
 plt.figure(figsize=(5,6.7))
-plt.scatter(chan_locs_y,chan_locs_x,s=75) #plotting electrodes
+coefs = abs(np.mean(np.mean(coefs,1),0)[48])
+plt.scatter(chan_locs_y,chan_locs_x,s=100,c=coefs, cmap='Blues',edgecolors='k') #plotting coefficients of electrodes
 plt.scatter(0,0,s=70000,marker='o',facecolors='none', edgecolors='k') #plotting "head"
 plt.scatter(0,1.3,marker='^',s=750, facecolors='none',edgecolors='k') # plotting "nose"
 plt.ylim(-1.5,1.75)
@@ -54,7 +55,7 @@ create_frame(i_timepoint=48, coefs=coefs, timepoints=timepoints,chan_locs_x=chan
 
 ![Alt Text](https://williamthyer.github.io/images/interp.png)
 
-You can see that at this timepoint, electrodes in the back of the head have higher coefficients than the rest. It's worth noting that the electrode voltages were z-scored before the model was trained. This allows me to interpret these weights since the electrode voltages are all at the same scale.
+This is the same information as the previous plot, but it's much easier to visualize. It's clear that electrodes in the back of the head have higher coefficients than the rest. It's worth noting that the electrode voltages were z-scored before the model was trained. This allows me to interpret these weights since the electrode voltages have the same scale.
 
 But this is only one frame of data. In reality, this signal develops over time. This is a perfect excuse to use matplotlib's animation functionality. And the `create_frame()` function is already setup in such a way to work well with `animation.FuncAnimation`. First I will create the animator.
 
