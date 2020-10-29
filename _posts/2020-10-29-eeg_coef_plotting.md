@@ -10,7 +10,7 @@ tags:
   - matplotlib
 ---
 
-I created a script that takes in coefficients from a series of EEG classification models, and project the coefficients on the scalp over time using `scipy.interpolate` and `matplotlib.animation`.
+This post outlines a python script I wrote that takes in coefficients from a series of EEG classification models and projects the coefficients back on the scalp over time using `scipy.interpolate` and `matplotlib.animation`.
 
 I've wanted an excuse to play around with matplotlib animations and scipy's interpolation functionality. In the past, I've just outputted each frame as a .png and then uploaded them all to a gif-making website... Not ideal!
 
