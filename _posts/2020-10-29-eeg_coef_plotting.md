@@ -14,7 +14,7 @@ This post outlines a python script I wrote that takes in coefficients from a ser
 
 I've wanted an excuse to play around with matplotlib animations and scipy's interpolation functionality. In the past, I've just outputted each frame as a .png and then uploaded them all to a gif-making website... Not ideal!
 
-First, I'll briefly describe the data I'm working with. These are coefficients from a ordinal logistic regression model that classifies EEG data. EEG is electrical activity recorded from an array of electrodes on the scalp. It generally represents synchronous activity in the brain. Without going into too much detail, this model classifies the number of items an individual is holding in their visual working memory. A separate model is trained at each timepoint, with the array of electrodes as the predictors. 
+First, I'll briefly describe the data I'm working with. These are coefficients from a ordinal logistic regression model that classifies EEG data. EEG is electrical activity recorded from an array of electrodes on the scalp. Without going into too much detail, this model classifies the number of items an individual is holding in their visual working memory. A separate model is trained at each timepoint, with the array of electrodes as the predictors. 
 
 After training the models (I'll make a more in depth blog post about this process at a later date), I extract the coefficients from each subject, each electrode, and each timepoint. That leaves us with this:
 
