@@ -26,12 +26,17 @@ print(coefs.shape)
 That is a numpy array of shape: (n_subjects, n_cross_val_iters, n_timepoints, n_electrodes). I also need the x and y coordinates of where the electrodes are placed on the scalp. This allows me to project the 1-D array back into 2-D space.
 
 ```python
-plt.scatter(chan_locs_y,chan_locs_x)
+plt.figure(figsize=(5,6.7))
+plt.scatter(chan_locs_y,chan_locs_x,s=75) #plotting electrodes
+plt.scatter(0,0,s=70000,marker='o',facecolors='none', edgecolors='k') #plotting "head"
+plt.scatter(0,1.3,marker='^',s=750, facecolors='none',edgecolors='k') # plotting "nose"
+plt.ylim(-1.5,1.75)
 plt.axis('off')
+plt.savefig('coef_scatter.png',dpi=500)
 ```
 ![Alt Text](https://williamthyer.github.io/images/coef_scatter.png)
 
-For this plot, imagine you are looking down at the top of someone's head. These points are where the electrodes are placed. You can see how sparse the electrode array is. I will use scipy.interpolate.griddata to interpolate the data between the electrodes for better visualization.
+For this plot, imagine you are looking down at the top of someone's head (the triangle is my attempt at a nose). These points are where the electrodes are placed. You can see how sparse the electrode array is. I will use scipy.interpolate.griddata to interpolate the data between the electrodes for better visualization.
 
 ```python
 # create grid for interpolation
