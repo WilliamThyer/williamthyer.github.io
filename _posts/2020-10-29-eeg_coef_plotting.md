@@ -23,7 +23,7 @@ print(coefs.shape)
 (30, 30, 145, 30)
 ```
 
-That is a numpy array of shape: (n_subjects, n_cross_val_iters, n_timepoints, n_electrodes). I also need the x and y coordinates of where the electrodes are placed on the scalp. This allows me to project the 1-D array back into 2-D space.
+That is a numpy array of shape: (n_subjects, n_cross_val_iters, n_timepoints, n_electrodes). I also need the x and y coordinates of where the electrodes are placed on the scalp. This allows me to project the 1-D array back into 2-D space. I'll pick a random timepoint and project the coefficients on the "scalp". Darker blue means that electrode was more heavily weighted in the model.
 
 ```python
 plt.figure(figsize=(5,6.7))
