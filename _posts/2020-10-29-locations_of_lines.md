@@ -162,7 +162,8 @@ bokeh server --show locations_of_lines.py
 
 This was a really fun project. I haven't ever created an interactive plot before, so this was exciting. I love the idea of using interactive plots to aid in data exploration and model interpretation, so this is a skill I was happy to work on. It also reaffirmed my love of Numpy. The plot would be laggy if I couldn't update the data over and over extremely quickly, and Numpy made that really easy.
 
-I actually had fun messing around with the app for a while. Here are a few examples of artworks I was able to make with it.
+I actually had fun messing around with the app for a while. Here are a few examples of artworks I was able to make with it:
+
 ![](https://williamthyer.github.io/images/locations_of_lines/05.png)
 ![](https://williamthyer.github.io/images/locations_of_lines/06.png)
 ![](https://williamthyer.github.io/images/locations_of_lines/07.png)
