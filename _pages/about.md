@@ -10,7 +10,7 @@ redirect_from:
 
 Who are you?
 ======
-My name is William Thyer. I'm currently doing my PhD in Psychology with a focus in Integrative Neuroscience. I'm a member of the Awh/Vogel Lab at the University of Chicago. You can access my [resume here](http://williamthyer.github.io/files/thyer_william_resume.pdf) and [CV here](http://williamthyer.github.io/files/thyer_william_cv.pdf).
+My name is William Thyer. I'm currently doing my PhD in Psychology with a focus in Integrative Neuroscience. I'm a member of the Awh/Vogel Lab at the University of Chicago. You can access my [resume here](http://williamthyer.github.io/files/Thyer_William_Resume.pdf) and [CV here](http://williamthyer.github.io/files/thyer_william_cv.pdf).
 
 What is your background?
 ======
