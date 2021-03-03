@@ -9,5 +9,4 @@ You can find a list of my publications on my <u><a href="https://scholar.google.
 
 ### Pre-prints
 
-Foster JJ, Thyer W, Wennberg JW, Awh E (submitted) Spatial attention enhances the spatial selectivity of population codes during the first wave of visual processing. 
-[BioRxiv](https://www.biorxiv.org/content/10.1101/2020.07.30.228981v1) [PDF](http://williamthyer.github.io/files/foster_thyer_wennberg_awh_2020.pdf)
+Foster JJ, Thyer W, Wennberg JW, Awh E (2021). Covert attention increases the gain of stimulus-evoked population codes. Journal of Neuroscience. [Link](https://www.jneurosci.org/content/41/8/1802) | [PDF](http://williamthyer.github.io/files/Foster_2021_JNeurosci.pdf)
