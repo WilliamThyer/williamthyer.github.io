@@ -31,9 +31,9 @@ ox.plot_graph(
 ```
 </span>
 
-#insert roads image here
+![](https://williamthyer.github.io/images/bike_networks/roads.png)
 
-When I first saw this map, it really hit me how powerful this database was, and how user-friendly OSMnx is. The next challenge was to do the same thing but for bike infrastructure. It's a bit more complicated, because I want dedicated bike trails as well as bike lanes (collectively referred to as cycleways). This [Github thread](https://github.com/gboeing/osmnx/issues/151) basically gave me the answer:
+When I first saw this map, it really hit me how powerful this database was, and how user-friendly OSMnx is. The next challenge was to query for bike infrastructure. It's a bit more complicated, because I wanted dedicated bike trails as well as bike lanes (collectively referred to as cycleways). This [Github thread](https://github.com/gboeing/osmnx/issues/151) gave me the answer:
 
 ```python
 # Configuring osmnx
@@ -47,6 +47,7 @@ non_cycleways = [(u, v, k) for  u, v, k, d  in  cycleways.edges(keys=True, data=
 cycleways.remove_edges_from(non_cycleways)
 cycleways = ox.utils_graph.remove_isolated_nodes(cycleways)
 ```
+
 That was pretty much the most complicated code in this project, and I didn't even have to write it! I stuck that code in a function called `get_cycleways()`. Here's what the cycleways look like plotted, including a footprint of the whole city:
 
 ```python
@@ -65,9 +66,11 @@ ox.plot_graph(
 	edge_linewidth=.85,
 	edge_color='limegreen')
 ```
- #insert cycleways map
+
+![](https://williamthyer.github.io/images/bike_networks/cycleways.png)
 
 Awesome! Next I put all of the query code into one function called `get_city`. I also made a function called `plot_cycleways` that handles all of the plotting. Here's what that looks like in action:
+
 ```python
 # load city info and calculate road to cycleway ratio
 city_name =  'Chicago, IL'
@@ -80,14 +83,16 @@ fig,ax = plot_cycleways(
 	roads=roads,
 	city_area=city_area)
 ```
-#insert chicago map wo ratio
+
+![](https://williamthyer.github.io/images/bike_networks/no_ratio.png)
 
 ## The Best and Worst Bike Cities
 My next goal was to find the best and worst bike infrastructures in major U.S. cities. I'm sure there are a lot of interesting network connectivity analyses I could use to quantify the quality of cycleway network. 
 
-But for the time being, I decided a very straightforward approach would just be to calculate the ratio of roads to cycleways. If the ratio is 1:1, that means there's as much driving infrastructure as there is bike infrastructure. What a dream! 
+For the time being, I decided a very straightforward approach would just be to calculate the ratio of roads to cycleways. If the ratio is 1:1, that means there's as much driving infrastructure as there is bike infrastructure. What a dream! 
 
 To implement this, I used an OSMnx function called `basic_stats`. This returns useful info including the total length of the network edges. I can find the total length of the road network and bike network (in KM), and then calculate the ratio from that:
+
 ```python
 cycleways_stats = ox.basic_stats(cycleways)
 roads_stats = ox.basic_stats(roads)
@@ -97,6 +102,7 @@ roads_length = roads_stats['edge_length_total']
 
 rc_ratio = roads_length/cycleway_length
 ``` 
+
 I put that in a function called `calc_road_cycleway_ratio`. Then it was just a matter of putting everything together.
 
 ```python
@@ -112,11 +118,21 @@ fig,ax = plot_cycleways(
 	city_area=city_area,
 	road_cycleway_ratio=road_cycleway_ratio)
 ```
-#insert complete chicago map w ratio
 
-I got a list of the top 30 most populous U.S. cities, and ran all of them through my pipeline. Here's the top and bottom 3 cities!
-#insert top and bottom 3
+![](https://williamthyer.github.io/images/bike_networks/Chicago,&#32;IL.png)
 
-Here's a bunch of other example maps. And here's a [complete collection](https://github.com/WilliamThyer/bike_networks/tree/master/examples/pdf) of maps I've generated.
-#insert more map examples
+To compare cities, it's just a matter of inputting the city name and running it through the pipeline. So I decided to start with the top 30 most populous cities in the U.S. Here's the top and bottom 3 cities! Not looking good Texas (although Austin, TX was a close 4th best city).
+
+![](https://williamthyer.github.io/images/bike_networks/best_worst_cities.png)
+
+And as a point of comparison, here's probably the most famous bike city in the world:
+![](https://williamthyer.github.io/images/bike_networks/Amsterdam,&#32;Netherlands.png)
+
+Here's a bunch of other example maps from the top 30 most populous U.S. cities. And here's a [complete collection](https://github.com/WilliamThyer/bike_networks/tree/master/examples/pdf) of maps I've generated.
+![](https://williamthyer.github.io/images/bike_networks/Austin,&#32;TX.png)
+![](https://williamthyer.github.io/images/bike_networks/New,&#32;York&#32;City,&#32;NY.png)
+![](https://williamthyer.github.io/images/bike_networks/Portland,&#32;OR.png)
+![](https://williamthyer.github.io/images/bike_networks/Los&#32;Angeles,&#32;CA.png)
+![](https://williamthyer.github.io/images/bike_networks/El&#32;Paso,&#32;TX.png)
+
 
