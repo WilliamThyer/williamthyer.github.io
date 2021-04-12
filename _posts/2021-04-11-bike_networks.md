@@ -18,8 +18,8 @@ As a quick side note, I'm not a urban planning researcher or spatial scientist! 
 
 To get started, I had to find a way to interface with [OpenStreetMap](www.openstreetmap.org), which is basically an open-source Google Maps with specific cycleway information. After some searching, I found the amazing [OSMnx](https://osmnx.readthedocs.io/en/stable/) library by [Geoff Boeing](https://geoffboeing.com/), a professor of Urban Planning at USC. This library allowed me to query the OSM, and also includes network analysis tools. 
 
-As an example of how easy it is to access OSM data, here's a snippet of code that produces the network of all public roads in the city of Chicago, Illinois:
-<span style="font-size:4em;">
+As an example of how easy it is to access OSM data, here's a snippet of code that produces the network of all public roads in the city of Chicago, IL:
+
 ```python
 import osmnx as ox
 roads = ox.graph_from_place('Chicago,IL',network_type='drive')
@@ -29,7 +29,6 @@ ox.plot_graph(
 	edge_linewidth=.25,
 	edge_color='dimgrey')
 ```
-</span>
 
 ![](https://williamthyer.github.io/images/bike_networks/roads.png)
 
