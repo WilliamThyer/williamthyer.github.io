@@ -124,13 +124,15 @@ To compare cities, it's just a matter of inputting the city name and running it 
 
 ![](https://williamthyer.github.io/images/bike_networks/best_worst_cities.png)
 
-And as a point of comparison, here's probably the most famous bike city in the world:
+Looks like my ratio metric is measuring something valid because San Francisco and Seattle are both well-known for their bike culture. And Texas is a very car-oriented state with huge sprawling cities. And as a point of comparison, here's probably the most famous bike city in the world:
 ![](https://williamthyer.github.io/images/bike_networks/Amsterdam,&#32;Netherlands.png)
 
 ## What I Learned
-This was an interesting foray into visual story-telling for me. Maps are really interesting because they can contain a ton of information while still being pretty simple to read. Every city had something interesting and I had a lot of fun trying out the analysis on my hometown and other cities. Unfortunately, OSM doesn't appear to have information about every city (especially those outside of the North America and Europe).
+This was an interesting foray into visual story-telling with data visualization. Maps can contain so much information while still being simple to read. Every city map is unique and I had a lot of fun trying out the analysis on different cities. Unfortunately, OSM doesn't appear to have information about every city (especially those outside of the North America and Europe).
 
 I was thrilled that I came up with an idea that was really interesting to me, and there turned out to be a powerful, useable, and well-documented library for it! Python really can be wonderful in that regard. In the future, when I have a task or problem, one of my first steps will be to find if someone else has already solved it.
+
+As I mentioned earlier, there is a whole world of network analyses being applied to maps. It's an area I'm very intrigued by, but I think was a great first step. I would also like to include more physical geography in the maps such as bodies of water and green spaces. But I'll leave that for a future project.
 
 Here's a bunch of other example maps from the top 30 most populous U.S. cities. And here's a [complete collection](https://github.com/WilliamThyer/bike_networks/tree/master/examples/pdf) of maps I've generated.
 ![](https://williamthyer.github.io/images/bike_networks/Austin,&#32;TX.png)
