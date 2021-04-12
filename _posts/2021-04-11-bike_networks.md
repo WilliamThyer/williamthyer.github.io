@@ -8,11 +8,11 @@ tags:
   - OSMnx
 ---
 
-I've commuted by bicycle for over 6 years. After moving to Chicago for graduate school, I quickly came to appreciate the dedicated lakefront bike trail. Bike trails and bike lanes make commuting much safer and more enjoyable. However, some cities do a better job than others at building this infrastructure. The goal of this project is to visualize cycleway networks and also find a way to quantify the best and worst bike cities in the US.  
+I've commuted by bicycle for over 6 years. After moving to Chicago for graduate school, I quickly came to appreciate the dedicated lakefront bike trail. Bike trails and bike lanes make commuting much safer and more enjoyable. However, some cities do a better job than others at building this infrastructure. The goal of this project is to visualize cycleway networks and also find a way to quantify the best and worst bike cities in the US. Check out the [Github repo here](https://github.com/WilliamThyer/bike_networks)!
 
 ![](https://williamthyer.github.io/images/bike_networks/best_worst_cities.png)
 
-As a quick side note, I'm not a urban planning researcher or spatial scientist! I'm getting my PhD in Psychology right now. But as a cyclist and data scientist, this seemed like a really interesting problem to tackle in Python. For information from a more reputable source, checkout [People for Bikes](https://www.peopleforbikes.org/) who do some interesting work on ranking cities' bikeability. 
+As a quick side note, I'm not an urban planning researcher or spatial scientist! I'm getting my PhD in Psychology right now. But as a cyclist and data scientist, this seemed like a really interesting problem to tackle in Python. For information from a more reputable source, checkout [People for Bikes](https://www.peopleforbikes.org/) who do some interesting work on ranking cities' bikeability. 
 
 ## Creating the Cycleway Map
 
@@ -86,7 +86,7 @@ fig,ax = plot_cycleways(
 ![](https://williamthyer.github.io/images/bike_networks/no_ratio.png)
 
 ## The Best and Worst Bike Cities
-My next goal was to find the best and worst bike infrastructures in major U.S. cities. I'm sure there are a lot of interesting network connectivity analyses I could use to quantify the quality of cycleway network. 
+My next goal was to find the best and worst bike infrastructures in major U.S. cities. I'm sure there are a lot of interesting network connectivity analyses I could use to quantify the quality of cycleway network, but I won't attempt those for now.
 
 For the time being, I decided a very straightforward approach would just be to calculate the ratio of roads to cycleways. If the ratio is 1:1, that means there's as much driving infrastructure as there is bike infrastructure. What a dream! 
 
@@ -102,7 +102,7 @@ roads_length = roads_stats['edge_length_total']
 rc_ratio = roads_length/cycleway_length
 ``` 
 
-I put that in a function called `calc_road_cycleway_ratio`. Then it was just a matter of putting everything together.
+I put that in a function called `calc_road_cycleway_ratio`. Putting it all together and using it is as simple as this:
 
 ```python
 city_name =  'Chicago, IL'
@@ -120,12 +120,17 @@ fig,ax = plot_cycleways(
 
 ![](https://williamthyer.github.io/images/bike_networks/Chicago,&#32;IL.png)
 
-To compare cities, it's just a matter of inputting the city name and running it through the pipeline. So I decided to start with the top 30 most populous cities in the U.S. Here's the top and bottom 3 cities! Not looking good Texas (although Austin, TX was a close 4th best city).
+To compare cities, it's just a matter of inputting the city name and running it through the pipeline. So I decided to start with the top 30 most populous cities in the U.S. Using my road-to-cycleway ratio, here's the top and bottom 3 cities! It's not looking good for Texas (although Austin, TX was a close 4th best city).
 
 ![](https://williamthyer.github.io/images/bike_networks/best_worst_cities.png)
 
 And as a point of comparison, here's probably the most famous bike city in the world:
 ![](https://williamthyer.github.io/images/bike_networks/Amsterdam,&#32;Netherlands.png)
+
+## What I Learned
+This was an interesting foray into visual story-telling for me. Maps are really interesting because they can contain a ton of information while still being pretty simple to read. Every city had something interesting and I had a lot of fun trying out the analysis on my hometown and other cities. Unfortunately, OSM doesn't appear to have information about every city (especially those outside of the North America and Europe).
+
+I was thrilled that I came up with an idea that was really interesting to me, and there turned out to be a powerful, useable, and well-documented library for it! Python really can be wonderful in that regard. In the future, when I have a task or problem, one of my first steps will be to find if someone else has already solved it.
 
 Here's a bunch of other example maps from the top 30 most populous U.S. cities. And here's a [complete collection](https://github.com/WilliamThyer/bike_networks/tree/master/examples/pdf) of maps I've generated.
 ![](https://williamthyer.github.io/images/bike_networks/Austin,&#32;TX.png)
@@ -133,5 +138,3 @@ Here's a bunch of other example maps from the top 30 most populous U.S. cities. 
 ![](https://williamthyer.github.io/images/bike_networks/Portland,&#32;OR.png)
 ![](https://williamthyer.github.io/images/bike_networks/Los&#32;Angeles,&#32;CA.png)
 ![](https://williamthyer.github.io/images/bike_networks/El&#32;Paso,&#32;TX.png)
-
-
