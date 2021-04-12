@@ -8,7 +8,7 @@ tags:
   - OSMnx
 ---
 
-I've primarily commuted by bicycle for over 6 years. After moving to Chicago for graduate school, I quickly came to appreciate the dedicated lakefront bike trail. Bike trails and bike lanes make commuting much more enjoyable, and more importantly, much safer. However, some cities do a better job than others at building this infrastructure. The goal of this project is to visualize cycleway networks and also find a way to quantify the best and worst bike cities in the US. 
+I've commuted by bicycle for over 6 years. After moving to Chicago for graduate school, I quickly came to appreciate the dedicated lakefront bike trail. Bike trails and bike lanes make commuting much safer and more enjoyable. However, some cities do a better job than others at building this infrastructure. The goal of this project is to visualize cycleway networks and also find a way to quantify the best and worst bike cities in the US.  
 
 ![](https://williamthyer.github.io/images/bike_networks/best_worst_cities.png)
 
@@ -19,7 +19,7 @@ As a quick side note, I'm not a urban planning researcher or spatial scientist! 
 To get started, I had to find a way to interface with [OpenStreetMap](www.openstreetmap.org), which is basically an open-source Google Maps with specific cycleway information. After some searching, I found the amazing [OSMnx](https://osmnx.readthedocs.io/en/stable/) library by [Geoff Boeing](https://geoffboeing.com/), a professor of Urban Planning at USC. This library allowed me to query the OSM, and also includes network analysis tools. 
 
 As an example of how easy it is to access OSM data, here's a snippet of code that produces the network of all public roads in the city of Chicago, Illinois:
-```Python
+```python
 import osmnx as ox
 roads = ox.graph_from_place('Chicago,IL',network_type='drive')
 ox.plot_graph(
@@ -32,7 +32,7 @@ ox.plot_graph(
 
 When I first saw this map, it really hit me how powerful this database was, and how user-friendly OSMnx is. The next challenge was to do the same thing but for bike infrastructure. It's a bit more complicated, because I want dedicated bike trails as well as bike lanes (collectively referred to as cycleways). This [Github thread](https://github.com/gboeing/osmnx/issues/151) basically gave me the answer:
 
-```Python
+```python
 # Configuring osmnx
 useful_tags = ox.settings.useful_tags_way + ['cycleway']
 ox.config(use_cache=True, log_console=True, useful_tags_way=useful_tags)
@@ -46,7 +46,7 @@ cycleways = ox.utils_graph.remove_isolated_nodes(cycleways)
 ```
 That was pretty much the most complicated code in this project, and I didn't even have to write it! I stuck that code in a function called `get_cycleways()`. Here's what the cycleways look like plotted, including a footprint of the whole city:
 
-```Python
+```python
 # Get footprint of entire city
 city_area = ox.geocode_to_gdf(city_name)
 # Get cycleways network
@@ -65,7 +65,7 @@ ox.plot_graph(
  #insert cycleways map
 
 Awesome! Next I put all of the query code into one function called `get_city`. I also made a function called `plot_cycleways` that handles all of the plotting. Here's what that looks like in action:
-```Python
+```python
 # load city info and calculate road to cycleway ratio
 city_name =  'Chicago, IL'
 cycleways,roads,city_area = get_city(city_name)
@@ -77,7 +77,7 @@ fig,ax = plot_cycleways(
 	roads=roads,
 	city_area=city_area)
 ```
-#insert complete map
+#insert chicago map wo ratio
 
 ## The Best and Worst Bike Cities
 My next goal was to find the best and worst bike infrastructures in major U.S. cities. I'm sure there are a lot of interesting network connectivity analyses I could use to quantify the quality of cycleway network. 
@@ -85,7 +85,7 @@ My next goal was to find the best and worst bike infrastructures in major U.S. c
 But for the time being, I decided a very straightforward approach would just be to calculate the ratio of roads to cycleways. If the ratio is 1:1, that means there's as much driving infrastructure as there is bike infrastructure. What a dream! 
 
 To implement this, I used an OSMnx function called `basic_stats`. This returns useful info including the total length of the network edges. I can find the total length of the road network and bike network (in KM), and then calculate the ratio from that:
-```Python
+```python
 cycleways_stats = ox.basic_stats(cycleways)
 roads_stats = ox.basic_stats(roads)
 
@@ -96,7 +96,7 @@ rc_ratio = roads_length/cycleway_length
 ``` 
 I put that in a function called `calc_road_cycleway_ratio`. Then it was just a matter of putting everything together.
 
-```Python
+```python
 city_name =  'Chicago, IL'
 # load city info and calculate road to cycleway ratio
 cycleways,roads,city_area = get_city(city_name)
