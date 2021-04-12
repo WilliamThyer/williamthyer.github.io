@@ -8,7 +8,7 @@ tags:
   - OSMnx
 ---
 
-I've commuted by bicycle for over 6 years. After moving to Chicago for graduate school, I quickly came to appreciate the dedicated lakefront bike trail. Bike trails and bike lanes make commuting much safer and more enjoyable. However, some cities do a better job than others at building this infrastructure. The goal of this project is to visualize cycleway networks and also find a way to quantify the best and worst bike cities in the US. Check out the [Github repo here](https://github.com/WilliamThyer/bike_networks)!
+I've commuted by bicycle for over 6 years. After moving to Chicago for graduate school, I quickly came to appreciate the dedicated lakefront bike trail. Bike trails and bike lanes make commuting much safer and more enjoyable. However, some cities do a better job than others at building this infrastructure. The goal of this project is to visualize cycleway networks and find the most and least bikeable US cities. Check out the [Github repo here](https://github.com/WilliamThyer/bike_networks)!
 
 ![](https://williamthyer.github.io/images/bike_networks/best_worst_cities.png)
 
@@ -68,7 +68,7 @@ ox.plot_graph(
 
 ![](https://williamthyer.github.io/images/bike_networks/cycleways.png)
 
-Awesome! Next I put all of the query code into one function called `get_city`. I also made a function called `plot_cycleways` that handles all of the plotting. Here's what that looks like in action:
+Awesome! All of the query code went into one function called `get_city`. I also made a function called `plot_cycleways` that handles all of the plotting. Here's what that looks like in action:
 
 ```python
 # load city info and calculate road to cycleway ratio
@@ -102,7 +102,7 @@ roads_length = roads_stats['edge_length_total']
 rc_ratio = roads_length/cycleway_length
 ``` 
 
-I put that in a function called `calc_road_cycleway_ratio`. Putting it all together and using it is as simple as this:
+I put that in a function called `calc_road_cycleway_ratio`. Using the pipeline altogether is as simple as this:
 
 ```python
 city_name =  'Chicago, IL'
