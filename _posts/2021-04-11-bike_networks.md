@@ -1,6 +1,6 @@
 ---
 title: 'Visualizing and Analyzing Bicycle Infrastructure using OSMnx'
-date: 2021-05-10
+date: 2021-04-10
 permalink: /posts/2021/4/bike_networks/
 tags:
   - python
