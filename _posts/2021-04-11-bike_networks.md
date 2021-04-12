@@ -32,7 +32,7 @@ ox.plot_graph(
 
 ![](https://williamthyer.github.io/images/bike_networks/roads.png)
 
-When I first saw this map, it really hit me how powerful this database was, and how user-friendly OSMnx is. The next challenge was to query for bike infrastructure. It's a bit more complicated, because I wanted dedicated bike trails as well as bike lanes (collectively referred to as cycleways). This [Github thread](https://github.com/gboeing/osmnx/issues/151) gave me the answer:
+When I first saw this map it really hit me how powerful this database is and how user-friendly OSMnx is. The next challenge was to query for bike infrastructure. It's a bit more complicated, because I wanted dedicated bike trails as well as bike lanes (collectively referred to as cycleways). This [Github thread](https://github.com/gboeing/osmnx/issues/151) gave me the answer:
 
 ```python
 # Configuring osmnx
@@ -128,11 +128,11 @@ It looks like my road-to-cycleway ratio is measuring something valid because San
 ![](https://williamthyer.github.io/images/bike_networks/Amsterdam,&#32;Netherlands.png)
 
 ## What I Learned
-This was an interesting foray into visual story-telling with data visualization. Maps can contain so much information while still being simple to read. Every city map is unique and I had a lot of fun trying out the analysis on different cities. Unfortunately, OSM doesn't appear to have information about every city (especially those outside of the North America and Europe).
+This was an interesting foray into visual story-telling with data visualization. Maps can contain so much information while still being simple to read. Every city map is unique and I had a lot of fun trying out the analysis on different cities. Unfortunately, OSM doesn't appear to have information about every city (especially those outside of North America and Europe).
 
 I was thrilled that I came up with an idea that was really interesting to me, and there turned out to be a powerful, useable, and well-documented library for it! Python really can be wonderful in that regard. In the future, when I have a task or problem, one of my first steps will be to find if someone else has already solved it.
 
-As I mentioned earlier, there is a whole world of network analyses being applied to maps. It's an area I'm very intrigued by, but I think was a great first step. I would also like to include more physical geography in the maps such as bodies of water and green spaces. But I'll leave that for a future project.
+As I mentioned earlier, there is a whole world of network analyses being applied to maps. It's an area I'm very intrigued by, but I think this was a great first step. I would also like to include more physical geography in the maps such as bodies of water and green spaces. I'll leave that for a future project.
 
 Here's a bunch of other example maps from the top 30 most populous U.S. cities. And here's a [complete collection](https://github.com/WilliamThyer/bike_networks/tree/master/examples/pdf) of maps I've generated.
 ![](https://williamthyer.github.io/images/bike_networks/Austin,&#32;TX.png)
