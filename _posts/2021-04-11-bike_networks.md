@@ -124,7 +124,7 @@ To compare cities, it's just a matter of inputting the city name and running it 
 
 ![](https://williamthyer.github.io/images/bike_networks/best_worst_cities.png)
 
-Looks like my ratio metric is measuring something valid because San Francisco and Seattle are both well-known for their bike culture. And Texas is a very car-oriented state with huge sprawling cities. And as a point of comparison, here's probably the most famous bike city in the world:
+It looks like my road-to-cycleway ratio is measuring something valid because San Francisco and Seattle are both well-known for their bike culture. And Texas is a very car-oriented state with huge sprawling cities. And as a point of comparison, here's probably the most famous bike city in the world:
 ![](https://williamthyer.github.io/images/bike_networks/Amsterdam,&#32;Netherlands.png)
 
 ## What I Learned
