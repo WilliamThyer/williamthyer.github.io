@@ -22,7 +22,7 @@ I started my PhD in the summer of 2018. My research is currently focused on "dec
 
 What is this site for?
 ======
-This site is a platform for me to share some of the work I am doing, whether it’s academic or just for fun. I hope that you can use it as a place to learn a bit about who I am and what I do. If you’re interested, check back in to keep up-to-date about what I’m working on!
+This site is a platform for me to share some of the work I am doing, whether it’s academic or just for fun. You can check out my full list of [academic publications](https://williamthyer.github.io/publications/), my [data science portfolio](https://williamthyer.github.io/portfolio/), and my [blog](https://williamthyer.github.io/blog/).
 
 How do I contact you?
 ======
