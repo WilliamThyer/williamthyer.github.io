@@ -18,7 +18,7 @@ I completed a BS in Psychology with a minor in Statistics at Florida State Unive
 
 Current work
 ======
-I'm currently doing a summer data science internship at SparkNeuro. I started my PhD in the summer of 2018. My research is currently focused on "decoding" visual working memory load from EEG signal using machine learning techniques. I am also interested in developing more sensitive methods for EEG classification using neural networks. 
+I started my PhD in the summer of 2018. My research is currently focused on "decoding" visual working memory load from EEG signal using machine learning techniques. I am also interested in developing more sensitive methods for EEG classification using neural networks. I'm currently doing a summer data science internship at SparkNeuro where I use artificial intelligence to diagnose and monitor neurological disorders.
 
 Contact info
 ======
