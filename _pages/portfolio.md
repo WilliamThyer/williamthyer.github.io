@@ -5,6 +5,12 @@ permalink: /portfolio/
 author_profile: true
 ---
 
+### [Competitive fighting game with heuristic-based AI](https://williamthyer.github.io/posts/2022/1/heuristic_ai/)  
+* Create complex fighting game in Python with PyGame   
+* Develop challenging AI using heuristics 
+* Deploy AI in real-time during gameplay
+<img src="https://williamthyer.github.io/images/heuristics_ai/heuristic.gif" alt="drawing" width="500"/> 
+
 ### [Visualizing and Analyzing Bicycle Infrastructure using OSMnx](https://williamthyer.github.io/posts/2021/4/bike_networks/)  
 * Visualize complex bicycle networks in major US cities with Matplotlib  
 * Quantify and compare networks  
