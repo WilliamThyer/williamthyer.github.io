@@ -8,9 +8,9 @@ tags:
   - AI
 ---
 
-I created a 1v1 fighting game in Python using [PyGame](https://www.pygame.org/wiki/about). Included is a 1-player option that allows you to play against a challenging AI opponent. It can make fast decisions based on the many different factors of the current game state. I personally still lose to it almost half of the time.  
+I created a 1v1 fighting game in Python using [PyGame](https://www.pygame.org/wiki/about). Included is a 1-player option that allows you to play against a challenging AI opponent. It can make fast decisions based on many different factors of the current game state. I personally lose to it almost half of the time.  
 
-How do you program character in video games make reasonable decisions automatically? A common method is to use [heuristics](https://optimization.mccormick.northwestern.edu/index.php/Heuristic_algorithms), which allow you to break down complex problems into simple decisions. They may not provide optimal solutions, but they are often fast and easy to understand. Both of these features are useful for developing a competitive enemy in a fighting game.
+How do you program a character in a video game to make reasonable decisions automatically? A common method is to use [heuristics](https://optimization.mccormick.northwestern.edu/index.php/Heuristic_algorithms). This allowa you to break down complex problems into simple decisions. They may not provide optimal solutions, but they are often fast and easy to understand. Both of these features are useful for developing a competitive enemy in a fighting game.
 
 ## Developing the game
 
@@ -20,9 +20,11 @@ Before creating the AI, I had to develop the game itself. I wanted to make a fig
 
 Programming a game actually has a lot of similarities to another type of programming I've done a lot of: programming cognitive psychology experiments. There are many commonalities including handling 'player' input, 'game' states, blitting (or drawing) objects on the screen, and providing intuitive and informative feedback. 
 
-I choose [PyGame](https://www.pygame.org/wiki/about) to develop the game because I love Python and it is far and away the most common game development framework in Python. 
+I choose [PyGame](https://www.pygame.org/wiki/about) to develop the game because I love Python and PyGame is far and away the most common game development framework in Python. 
 
 The main game loop basically consists of getting player input, updating the state of the game, and then drawing everything onscreen. If your game runs at 60 frames per second, that loop happens every 1.67 milliseconds. So for my game, each loop must get the input from the players (human or AI), update the game state (collisions, damage, etc.), and then draw everything on the screen (the background, characters, weapons, health, and stamina).
+
+![](https://williamthyer.github.io/images/heuristics_ai/game_loop.png)
 
 I won't go into too much detail about the code itself, but you can check out the full [github repo here](https://github.com/WilliamThyer/Vorpal). There were a lot of interesting challenges I faced during development. Player collisions, scaling the game to different screen sizes, and dashing and jumping physics all required a lot of planning and trial and error.
 
