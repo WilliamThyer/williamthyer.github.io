@@ -12,7 +12,7 @@ I created a 1v1 fighting game in Python using [PyGame](https://www.pygame.org/wi
 
 How do you program a character in a video game to make reasonable decisions automatically? A common method is to use [heuristics](https://optimization.mccormick.northwestern.edu/index.php/Heuristic_algorithms). This allowa you to break down complex problems into simple decisions. They may not provide optimal solutions, but they are often fast and easy to understand. Both of these features are useful for developing a competitive enemy in a fighting game.
 
-[insert gameplay gif]
+<img src="https://williamthyer.github.io/images/heuristics_ai/heuristic.gif" alt="drawing" width="600"/>
 
 ## Developing the game
 
@@ -36,7 +36,7 @@ The game is a basic fighting game. Two characters with 5 health face off against
 
 Each character can strike with a sword, block with a shield, jump, and dash. They have 5 health, and 5 stamina. Each action costs a stamina and stamina slowly regenerates. Successfully blocking an attack causes the attacker to lose all of their stamina. This system provides more than enough for a complex game that's still tractable for me to develop myself.
 
-[gif of actions]
+<img src="https://williamthyer.github.io/images/heuristics_ai/actions.gif" alt="drawing" width="600"/>
 
 ## Developing the AI
 
@@ -45,13 +45,13 @@ Now that I had the game developed, I could work on the AI. I modified the code w
 ### Random input 
 I wanted to create a baseline system to compare any progress with. My first iteration was as simple as it gets. Every frame, the `AIEnemy` class returns one random input out of the possible inputs (move left, move right, jump, sword strike, sword strike downwards, and shield). This results in a gittering mess. Because left and right are equally likely, it tends to just move back and forth while occassionaly striking, shielding, and jumping.
 
-[insert random input gif]
+<img src="https://williamthyer.github.io/images/heuristics_ai/random_input.gif" alt="drawing" width="600"/>
 
 ### Random sequence
 
 A slightly more sophisticated approach would be to create sequences of movements. During the `AIEnemy` initialization, a series of sequences are created: `walk right`, `walk left`, `jump right`, `jump left`, `sword`, `shield`, `jump left downwards strike`, and `jump right downwards strike`. Each of these sequences provides somewhere from 1 to 10 frames of input. Even though the sequences are still randomly chosen, it is somewhat more coherent. 
 
-[insert random sequence gif]
+<img src="https://williamthyer.github.io/images/heuristics_ai/random_sequence.gif" alt="drawing" width="600"/>
 
 ### Heuristics
 
@@ -63,14 +63,12 @@ Notice that I say "or" for some of these circumstances. I chose to implement som
 
 One major problem with this set of rules is that it creates an overly aggressive fighter. It only approaches and attacks, even if it has no stamina to do so. So I implemented an `avoid` function. Basically, if the AI character has no stamina, it runs away from the player.
 
-[add ai gif]
-
 #### Adding sequence breaking
 Sometimes, a decision has to be made immediately. That includes blocking a strike or attacking a stunned player. So I implemented a functionality I called a `sequence break`. If a particular condition is reached, whatever sequence is currently being executed is broken immediately and a new sequence is begun.
 
 This drastically increased the reactivity of the AI. Between the randomness and the sequence breaking, the `EnemyAI` had become a seriously tough opponent. By this point, I was losing a significant portion of the fights. And not only that, but it was making reasonable decisions that seemed almost human. That seemed like the gold standard of a good AI opponent.
 
-[add ai with sequence break gif]
+<img src="https://williamthyer.github.io/images/heuristics_ai/heuristic.gif" alt="drawing" width="600"/>
 
 ## Future directions
 
