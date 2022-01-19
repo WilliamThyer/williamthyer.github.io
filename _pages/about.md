@@ -10,15 +10,15 @@ redirect_from:
 
 About me
 ======
-My name is William Thyer. I'm a data science intern at SparkNeuro. I'm also currently doing my PhD in Psychology with a focus in Integrative Neuroscience. I'm a member of the Awh/Vogel Lab at the University of Chicago. You can access my [resume here](http://williamthyer.github.io/files/Thyer_William_Resume.pdf) and [CV here](http://williamthyer.github.io/files/thyer_william_cv.pdf).
+My name is William Thyer. I am a 4th year PhD studying psychology, cognitive neuroscience, and data science. I'm a member of the [Awh/Vogel Lab](https://awhvogellab.com) at the University of Chicago. I was a data science intern at Spark Neuro and I'm currently seeking another internship for summer 2022. You can access my [resume here](http://williamthyer.github.io/files/Thyer_William_Resume.pdf) and [CV here](http://williamthyer.github.io/files/thyer_william_cv.pdf).
 
 Background
 ======
-I completed a BS in Psychology with a minor in Statistics at Florida State University. While there, I studied working memory and cognitive control in the Nee Lab. This is where I first gained an interest in cognitive neuroscience and programming.
+I completed a BS in Psychology with a minor in Statistics at Florida State University. While there, I studied working memory and cognitive control in the [Nee Lab](https://neelab.wixsite.com/neelab). This is where I first gained an interest in cognitive neuroscience, programming, and data science.
 
 Current work
 ======
-I started my PhD in the summer of 2018. My research is currently focused on "decoding" visual working memory load from EEG signal using machine learning techniques. I am also interested in developing more sensitive methods for EEG classification using neural networks. I'm currently doing a summer data science internship at SparkNeuro where I use artificial intelligence to diagnose and monitor neurological disorders.
+I started my PhD in the summer of 2018. My academic research involves designing and conducting experiments to better understand human memory and attention. I am also interested in developing open-source tools to aid psychological research. My internship experience focused on developing machine learning tools and data visualizations to detect and monitor human neurological disorders.
 
 Contact info
 ======
