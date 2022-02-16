@@ -11,7 +11,7 @@ You can find a list of my publications on my <u><a href="https://scholar.google.
 
 Storage in visual working memory recruits a content-independent pointer system.  
 Thyer W, Adam KCS, Diaz GK, Velázquez Sánchez IN, Vogel EK, Awh E (2022). *Psychological Science*.  
-[PDF](http://williamthyer.github.io/files/Thyer_et_al_2022.pdf), [Supplemental Materials](Thyer_et_al_2022_Supplemental_Materials.pdf), [OSF](https://osf.io/uhbx5/)
+[PDF](http://williamthyer.github.io/files/Thyer_et_al_2022.pdf), [Supplemental Materials](http://williamthyer.github.io/files/Thyer_et_al_2022_Supplemental_Materials.pdf), [OSF](https://osf.io/uhbx5/)
 
 ### 2021
 
