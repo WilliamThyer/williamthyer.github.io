@@ -8,6 +8,8 @@ tags:
   - advice
 ---
 
+Here's some advice if you're considering moving into data science during a psychology PhD. I tried to make it as practical as possible.
+
 ## 1. Become good at data science.
 
 Learn Python or R, _not_ Matlab. I see way fewer positions that mention Matlab compared to R and especially Python. Take online courses in machine learning and statistics. I highly recommend [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) if you have no CS background, like me. _Don't_ start with deep learning and neural networks. Make sure you understand data science and machine learning fundamentals very well before moving onto deep learning. If you do, I like the [fastai course](https://course.fast.ai/).
@@ -27,3 +29,6 @@ Aim to do at least 1 summer internship during your PhD. 2 even is better. Ideall
 ## 5. Do your internships.
 
 Do a data science internship! You'll likely learn a lot about putting things into production, collaboration, and actual development. A lot of internships turn into full-time offers. Once you have one or two internships under your belt, you'll be in a much better position when applying for full-time jobs upon graduation.
+
+## Additional reading.
+[Advice for PhD Students Thinking about Data Science Internships](https://colinquirk.com/internship-advice/)
