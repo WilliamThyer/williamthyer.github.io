@@ -5,6 +5,12 @@ permalink: /portfolio/
 author_profile: true
 ---
 
+### [Decoding visual working memory load from EEG, published in *Psychological Science* journal](williamthyer.github.io/blob/master/files/Thyer_et_al_2022.pdf)
+* Design, program, and conduct large-scale cognitive neuroscience experiments (50+ participants, +100 sessions)
+* Preprocessing and statistical analysis of human behavioral and neural data
+* Classification of cognitive states from neural data with Scikit-Learn
+<img src="https://williamthyer.github.io/images/thyer_et_al_2022/thyer_2022_fig.pdf" alt="drawing" width="500"/> 
+
 ### [Competitive fighting game with heuristic-based AI](https://williamthyer.github.io/posts/2022/1/heuristic_ai/)  
 * Create complex fighting game in Python with PyGame   
 * Develop challenging AI using heuristics 
