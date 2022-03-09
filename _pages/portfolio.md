@@ -5,7 +5,7 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-### [Decoding visual working memory load from EEG, published in *Psychological Science* journal](williamthyer.github.io/blob/master/files/Thyer_et_al_2022.pdf)
+### [Decoding visual working memory load from EEG, published in *Psychological Science* journal](williamthyer.github.io/files/Thyer_et_al_2022.pdf)
 * Design, program, and conduct large-scale cognitive neuroscience experiments (50+ participants, +100 sessions)
 * Preprocessing and statistical analysis of human behavioral and neural data
 * Classification of cognitive states from neural data with Scikit-Learn   
