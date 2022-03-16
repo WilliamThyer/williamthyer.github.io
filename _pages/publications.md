@@ -18,5 +18,5 @@ Thyer W, Adam KCS, Diaz GK, Velázquez Sánchez IN, Vogel EK, Awh E (2022). *Psy
 
 ### [Covert attention increases the gain of stimulus-evoked population codes.](https://www.jneurosci.org/content/41/8/1802)  
 Foster JJ, Thyer W, Wennberg JW, Awh E (2021). *Journal of Neuroscience.*  
-* [PDF](http://williamthyer.github.io/files/Foster_2021_JNeurosci.pdf), [Open Data and Analyses](https://osf.io/hmvzc/)
+* [PDF](http://williamthyer.github.io/files/Foster_2021_JNeurosci.pdf), [Open Data and Analyses](https://osf.io/hmvzc/)  
 <img src="https://williamthyer.github.io/images/papers/foster_et_al_2021.png" alt="drawing" width="550"/> 
