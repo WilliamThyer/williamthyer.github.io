@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "William Thyer"
 title_separator          : "-"
 name                     : &name "William Thyer"
-description              : &description "PhD student in the Awh/Vogel Lab at the University of Chicago."
+description              : &description "PhD student in the Awh/Vogel Lab at the University of Chicago. Cognitive neuroscience, psychology, and data science."
 url                      : https://williamthyer.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "williamthyer/williamthyer.github.io"
@@ -83,7 +83,7 @@ analytics:
 author:
   name             : "William Thyer"
   avatar           : "profile.jpg"
-  bio              : "PhD student in the Awh/Vogel Lab at the University of Chicago."
+  bio              : "PhD student in the Awh/Vogel Lab at the University of Chicago. Cognitive neuroscience, psychology, and data science."
   location         : "Chicago, Il"
   employer         :
   pubmed           : 
