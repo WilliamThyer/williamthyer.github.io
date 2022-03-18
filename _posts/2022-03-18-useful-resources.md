@@ -1,6 +1,6 @@
 ---
 title: "Interesting and useful resources for data science, AI, neuroscience, statistics, and more"
-date: 2022-03-03
+date: 2022-03-18
 permalink: /posts/2022/3/useful_resources/
 tags:
   - data science
