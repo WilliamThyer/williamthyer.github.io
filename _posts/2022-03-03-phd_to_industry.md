@@ -31,4 +31,7 @@ Aim to do at least 1 summer internship during your PhD. 2 even is better. Ideall
 Do a data science internship! You'll likely learn a lot about putting things into production, collaboration, and actual development. A lot of internships turn into full-time offers. Once you have one or two internships under your belt, you'll be in a much better position when applying for full-time jobs upon graduation.
 
 ## Additional reading.
-[Advice for PhD Students Thinking about Data Science Internships](https://colinquirk.com/internship-advice/)
+[Advice for PhD Students Thinking about Data Science Internships](https://colinquirk.com/internship-advice/)  
+[Crushed it! Landing a data science job](http://www.erinshellman.com/crushed-it-landing-a-data-science-job/)  
+[What candidates can and cannot control in their job hunt](https://ericmjl.github.io/blog/2021/11/28/what-candidates-can-and-cannot-control-in-their-job-hunt/)  
+[Advice for Applying to Data Science Jobs](https://hookedondata.org/advice-for-applying-to-data-science-jobs/)  
