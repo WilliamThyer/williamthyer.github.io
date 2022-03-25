@@ -43,6 +43,7 @@ Fascinating textbook/series of articles on artificial general intelligence and w
 ### [the singularity is nearer](https://geohot.github.io//blog/)
 
 ## Posts & Articles
+### [Why AI is Harder than We Think](http://williamthyer.github.io/files/mitchel_ai_preprint.pdf)
 ### [What’s the deal with “brainwaves”?](https://yohanjohn.com/neurologism/whats-the-deal-with-brainwaves)  
 ### [The Scaling Hypothesis](https://www.gwern.net/Scaling-hypothesis)  
 ### [Fizz Buzz in TensorFlow](https://joelgrus.com/2016/05/23/fizz-buzz-in-tensorflow/)  
