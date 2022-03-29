@@ -32,16 +32,27 @@ Fascinating textbook/series of articles on artificial general intelligence and w
 
 ## Blogs
 ### [yohanjohn.com](https://yohanjohn.com/)   
+Yahan John's blog. Research Assistant Professor at Boston University. Computational neuroscience, cognitive science, and philosophy.
 ### [gwern.net](https://www.gwern.net/index)  
+Gwern Branwen's blog.  Psychology, statistics, and technology. Very long-form writing.
 ### [vickiboykis.com](https://vickiboykis.com/)  
+Vicki Boykis' blog. Machine learning engineer at Twitter. Technology, programming, and machine learning. 
 ### [astralcodexten.substack.com](https://astralcodexten.substack.com/)  
+Scott Alexander's blog. Doctor at Lorien Psychiatry. Rationality, psychiatry, ethics, AI, etc.
 ### [Statistical Modeling, Causal Inference, and Social Science](https://statmodeling.stat.columbia.edu/)  
-### [guzey.substack.com](https://guzey.substack.com/)  
+Columbia Statistic's blog (mostly Andrew Gelman). Statistics, economics, social science.
+### [guzey.com](https://guzey.com/)  
+Alexey Guzey's blog. Executive director at New Science. Meta-science, biology, and philanthropy. 
 ### [karpathy.github.io](https://karpathy.github.io/)  
+Andrej Karpathy's blog. Senior Director of AI at Tesla. AI and neural networks.
 ### [ryxcommar.com](https://ryxcommar.com/)   
+Statistics, modelling, and data science.
 ### [Statistical Thinking](https://www.fharrell.com/)  
+Frank E Harrell Jr's blog. Professor of Biostatistics at Vanderbilt Medicine. Just a lot of statistics: Bayesian, NHST, RCT, machine learning, etc.
 ### [the singularity is nearer](https://geohot.github.io//blog/)
+George Hotz's blog. AI, AGI, some computation neuroscience, etc.
 ### [Cold Takes](https://www.cold-takes.com/)
+AGI, philosophy, ethics, etc.
 
 ## Data Science Career Advice
 ### [Crushed it! Landing a data science job](http://www.erinshellman.com/crushed-it-landing-a-data-science-job/)  
