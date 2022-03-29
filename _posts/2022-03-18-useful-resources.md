@@ -41,6 +41,7 @@ Fascinating textbook/series of articles on artificial general intelligence and w
 ### [ryxcommar.com](https://ryxcommar.com/)   
 ### [Statistical Thinking](https://www.fharrell.com/)  
 ### [the singularity is nearer](https://geohot.github.io//blog/)
+### [Cold Takes](https://www.cold-takes.com/)
 
 ## Posts & Articles
 ### [Why AI is Harder than We Think](http://williamthyer.github.io/files/mitchel_ai_preprint.pdf)
@@ -54,6 +55,7 @@ Fascinating textbook/series of articles on artificial general intelligence and w
 ### [Heuristics That Almost Always Work](https://astralcodexten.substack.com/p/heuristics-that-almost-always-work?s=r)  
 ### [Yes, the brain is a computer](https://medium.com/the-spike/yes-the-brain-is-a-computer-11f630cad736)  
 ### [Lessons Learned Reproducing a Deep Reinforcement Learning Paper](http://amid.fish/reproducing-deep-rl)
+### [This Can't Go on](https://www.cold-takes.com/this-cant-go-on/)
 
 ## Data Science Career Advice
 ### [Crushed it! Landing a data science job](http://www.erinshellman.com/crushed-it-landing-a-data-science-job/)  
