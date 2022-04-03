@@ -76,3 +76,12 @@ AGI, philosophy, ethics, etc.
 ### [This Can't Go on](https://www.cold-takes.com/this-cant-go-on/)
 ### [Lena by qntm](https://qntm.org/mmacevedo)
 
+## Ergonomics
+### [Ben Vallack's Youtube Channel](https://www.youtube.com/channel/UC4NNPgQ9sOkBjw6GlkgCylg)
+### [One Approach to Optimizing Ergonomic Keyboard Layouts](https://www.allthingsergo.com/case-study-one-approach-optimizing-ergonomic-keyboard-layouts/)
+### [Awesome Split Keyboards (mostly DIY)](https://github.com/diimdeep/awesome-split-keyboards/blob/master/README.md)
+### [List of Assembled Ortholinear Split Keyboards](https://www.reddit.com/r/MechanicalKeyboards/comments/b8vatm/list_of_assembled_ortholinear_split_keyboards/)
+### [Another List of Assembled Ortholinear Split Keyboards](https://www.tryorthokeys.com/split)
+### [ErgoMechKeyboards Subreddit](https://www.reddit.com/r/ErgoMechKeyboards/)
+### [Ergonomics Subreddit](https://www.reddit.com/r/Ergonomics/)
+### [Falba.tech custom split keyboards](https://falba.tech/customize-your-keyboard/)
