@@ -8,17 +8,15 @@ redirect_from:
   - /about.html
 ---
 
+**I am currently searching for a full-time position as a data scientist for Fall 2023.**
+
 About me
 ======
-My name is William Thyer. I am a 4th year PhD studying psychology, cognitive neuroscience, and data science. I'm a member of the [Awh/Vogel Lab](https://awhvogellab.com) at the University of Chicago. I was a data science intern at [Spark Neuro](https://medical.sparkneuro.com/) in 2021. And I'm doing another data science internship at [Intuitive Surgical](https://www.intuitive.com/en-us) this summer. You can access my [resume here](http://williamthyer.github.io/files/Thyer_William_Resume.pdf) and [CV here](http://williamthyer.github.io/files/thyer_william_cv.pdf).
+My name is William Thyer. I am in the 5th and final year of my PhD studying psychology, cognitive neuroscience, and data science. I'm a member of the [Awh/Vogel Lab](https://awhvogellab.com) at the University of Chicago. I was previously a data science intern at [Spark Neuro](https://medical.sparkneuro.com/) in 2021 and at [Intuitive Surgical](https://www.intuitive.com/en-us) in 2022. You can access my [resume here](http://williamthyer.github.io/files/Thyer_William_Resume.pdf) and [CV here](http://williamthyer.github.io/files/thyer_william_cv.pdf).
 
-Background
+My research and internships
 ======
-I completed a BS in Psychology with a minor in Statistics at Florida State University. While there, I studied working memory and cognitive control in the [Nee Lab](https://neelab.wixsite.com/neelab). This is where I first gained an interest in cognitive neuroscience, programming, and data science.
-
-Current work
-======
-I started my PhD in the summer of 2018. My academic research involves designing and conducting experiments to better understand human memory and attention. I am also interested in developing open-source tools to aid psychological research. My internship experience focused on developing machine learning tools and data visualizations to detect and monitor human neurological disorders.
+My academic research involved designing and conducting experiments to better understand human memory and attention. I have also developed open-source data analysis software for psychology and neuroscience. My internship at Spark Neuro focused on developing machine learning tools and data visualizations to detect and monitor human neurological disorders. In my internship at Intuitive Surgical, I developed machine learning-based systems for providing feedback to surgeons during robotic surgeries.
 
 Contact info
 ======
