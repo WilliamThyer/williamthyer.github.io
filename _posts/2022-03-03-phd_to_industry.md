@@ -16,7 +16,7 @@ Learn Python or R, _and probably not_ Matlab. I see way fewer positions that men
 
 ## 2. Do data science.
 
-This obviously happens in parallel to step 1. Most neuroscience/psychology research already involves lots of data science elements. You're probably already a better data scientist than you realize. Building and cleaning data sets, data visualization, statistical testing, modelling, predictions, writing, science communication, etc. Emphasize these aspects of your research. Projects and publications will help show your skills on your resume and during interviews. Make a website to showcase your research and side projects. I use the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) GitHub Page theme.
+This obviously happens in parallel to step 1. Most neuroscience/psychology research already involves lots of data science elements. You're probably already a better data scientist than you realize. Building and cleaning data sets, data visualization, statistical testing, modelling, predictions, writing, science communication, etc. Emphasize these aspects of your research. Projects and publications will help show your skills on your resume and during interviews. Make a website to showcase your research and side projects. I use the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) GitHub Page theme. Check out some of my recommended [Courses & Textbooks](https://williamthyer.github.io/posts/2022/3/useful_resources/#courses--textbooks).
 
 ## 3. Communicate early and often.
 
@@ -35,3 +35,4 @@ Do a data science internship! You'll hopefully learn a lot about putting models 
 [Crushed it! Landing a data science job](http://www.erinshellman.com/crushed-it-landing-a-data-science-job/)  
 [What candidates can and cannot control in their job hunt](https://ericmjl.github.io/blog/2021/11/28/what-candidates-can-and-cannot-control-in-their-job-hunt/)  
 [Advice for Applying to Data Science Jobs](https://hookedondata.org/advice-for-applying-to-data-science-jobs/)  
+
