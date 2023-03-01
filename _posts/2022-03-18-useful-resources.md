@@ -11,7 +11,7 @@ tags:
 A list of useful or interesting articles, courses, and blogs relating to data science, neuroscience, AI, and statistics (mostly).
 
 ## Courses & Textbooks
-## [Hands on Machine Learning with Scikit-Learn, Keras, and TensorFlow]([https://github.com/Akramz/Hands-on-Machine-Learning-with-Scikit-Learn-Keras-and-TensorFlow](https://github.com/ageron/handson-ml2))
+### [Hands on Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://github.com/ageron/handson-ml2)
 I think this is the most popular intro to machine learning book for Python. I didn't do the Keras/TensorFlow portions, but the first half is more than enough to get started in machine learning.
 ### [fast.ai](https://course.fast.ai/)  
 My favorite deep learning course. It covers deep learning across many domains, AI ethics, and why and how deep learning works so well. 
