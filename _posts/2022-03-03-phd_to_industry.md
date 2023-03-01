@@ -1,5 +1,5 @@
 ---
-title: "How to become a data scientist as a psychology/neuroscience PhD student"
+title: "Advice for becoming a data scientist as a psychology/neuroscience PhD student"
 date: 2022-03-03
 permalink: /posts/2022/1/phd_to_data_science/
 tags:
