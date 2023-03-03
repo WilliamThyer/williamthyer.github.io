@@ -5,6 +5,12 @@ permalink: /portfolio/
 author_profile: true
 ---
 
+### [Calm Hands, help reduce nail-biting using computer vision and AI](https://williamthyer.github.io/posts/2023/3/calm-hands/)
+* Create a TKinter desktop application that provides real time feedback on nail-biting
+* Uses a fine-tuned deep neural network to classify frames from the webcam
+* Built a training/testing dataset from scratch, and modified it based on model performance. 
+<img src="https://github.com/WilliamThyer/calm-hands/blob/main/gui_screenshots/app_demo.gif" alt="drawing" width="550"/>
+
 ### [Decoding visual working memory load from EEG, published in *Psychological Science* journal](https://williamthyer.github.io/files/Thyer_et_al_2022.pdf)
 * Design, program, and conduct large-scale cognitive neuroscience experiments (50+ participants, +100 sessions)
 * Preprocessing and statistical analysis of human behavioral and neural data
