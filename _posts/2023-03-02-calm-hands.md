@@ -9,7 +9,7 @@ tags:
   - python
 ---
 
-<img src="https://williamthyer.github.io/images/calm-hands/app_demo.gif" alt="drawing" width="600"/>
+<img src="https://williamthyer.github.io/images/calm-hands/app_demo.gif" alt="drawing" width="800"/>
 
 Calm Hands helps the user reduce nail-biting during computer use. It provides realtime feedback about nail-biting habits using a deep neural net that monitors images from your webcam stream. This process is entirely local and images are never saved. Feedback is provided through audio and visual cues to alert you of when you are biting your nails. Realtime data visualization is provided as well. Check out the [full repo here](https://github.com/WilliamThyer/calm-hands).
 
@@ -80,4 +80,4 @@ I used `tkinter` and `customtkinter` to create the GUI for the app. It displays 
 
 Creating the GUI was much more complicated than I thought. I've never really created a user interface before, and getting all of the positioning and callbacks working correctly took a while. Also, getting the plot to update smoothly and correctly took a lot of effort. But I think the final product looks and functions well!
 
-<img src="https://williamthyer.github.io/images/calm-hands/app_demo.gif" alt="drawing" width="600"/>
+<img src="https://williamthyer.github.io/images/calm-hands/app_demo.gif" alt="drawing" width="800"/>
