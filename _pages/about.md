@@ -12,7 +12,7 @@ redirect_from:
 
 About me
 ======
-My name is William Thyer. I am in the 5th and final year of my PhD studying psychology, cognitive neuroscience, and data science. I'm a member of the [Awh/Vogel Lab](https://awhvogellab.com) at the University of Chicago. I was previously a data science intern at [Spark Neuro](https://medical.sparkneuro.com/) in 2021 and at [Intuitive Surgical](https://www.intuitive.com/en-us) in 2022. You can access my [resume here](http://williamthyer.github.io/files/Thyer_William_Resume.pdf) and [CV here](http://williamthyer.github.io/files/thyer_william_cv.pdf).
+My name is William Thyer. I am in the 5th and final year of my PhD studying psychology, cognitive neuroscience, and data science. I'm a member of the [Awh/Vogel Lab](https://awhvogellab.com) at the University of Chicago. I was previously a data science intern at [Spark Neuro](https://medical.sparkneuro.com/) in 2021 and at [Intuitive Surgical](https://www.intuitive.com/en-us) in 2022. You can access my [resume here](http://williamthyer.github.io/files/Thyer_William_Resume.pdf) and [Github here](https://github.com/WilliamThyer).
 
 My research and internships
 ======
