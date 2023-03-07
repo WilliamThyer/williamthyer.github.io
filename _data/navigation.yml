@@ -6,14 +6,14 @@ main:
   - title: "Portfolio"
     url: /portfolio/
     
-  - title: "Presentations"
-    url: /talks/
+#   - title: "Presentations"
+#     url: /talks/
     
   - title: "Blog Posts"
     url: /blog/
     
-  - title: "CV"
-    url: /files/thyer_william_cv.pdf
+#   - title: "CV"
+#     url: /files/thyer_william_cv.pdf
 
   - title: "Resume"
     url: /files/Thyer_William_Resume.pdf
