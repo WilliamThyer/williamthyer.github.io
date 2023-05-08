@@ -19,6 +19,8 @@ My favorite deep learning course. It covers deep learning across many domains, A
 My favorite (bayesian) statistics course. Taught in R and Stan, but it's been translated to PyMC3, brms, & Julia.
 ### [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)  
 My favorite practical computer science course. I never took a formal CS class, and this covered a lot of useful material.
+### [SQLZoo](https://sqlzoo.net/wiki/SQL_Tutorial)
+My favorite SQL course. Uses interactive exercises to learn SQL commands step-by-step.
 ### [Handbook of Biological Statistics](https://www.biostathandbook.com/)  
 A useful handbook for practical statistical testing in biology (and probably lots of fields).
 ### [Common Statistical Tests are Linear Models](https://lindeloev.github.io/tests-as-linear/)  
@@ -39,22 +41,14 @@ Yahan John's blog. Research Assistant Professor at Boston University. Computatio
 Gwern Branwen's blog.  Psychology, statistics, and technology. Very long-form writing.
 ### [vickiboykis.com](https://vickiboykis.com/)  
 Vicki Boykis' blog. Machine learning engineer at Twitter. Technology, programming, and machine learning. 
-### [astralcodexten.substack.com](https://astralcodexten.substack.com/)  
-Scott Alexander's blog. Doctor at Lorien Psychiatry. Rationality, psychiatry, ethics, AI, etc.
 ### [Statistical Modeling, Causal Inference, and Social Science](https://statmodeling.stat.columbia.edu/)  
 Columbia Statistic's blog (mostly Andrew Gelman). Statistics, economics, social science.
 ### [guzey.com](https://guzey.com/)  
 Alexey Guzey's blog. Executive director at New Science. Meta-science, biology, and philanthropy. 
-### [karpathy.github.io](https://karpathy.github.io/)  
-Andrej Karpathy's blog. Senior Director of AI at Tesla. AI and neural networks.
 ### [ryxcommar.com](https://ryxcommar.com/)   
 Statistics, modelling, and data science.
 ### [Statistical Thinking](https://www.fharrell.com/)  
 Frank E Harrell Jr's blog. Professor of Biostatistics at Vanderbilt Medicine. Just a lot of statistics: Bayesian, NHST, RCT, machine learning, etc.
-### [the singularity is nearer](https://geohot.github.io//blog/)
-George Hotz's blog. AI, AGI, some computation neuroscience, etc.
-### [Cold Takes](https://www.cold-takes.com/)
-AGI, philosophy, ethics, etc.
 
 ## Data Science Career Advice
 ### [Crushed it! Landing a data science job](http://www.erinshellman.com/crushed-it-landing-a-data-science-job/)  
@@ -64,6 +58,7 @@ AGI, philosophy, ethics, etc.
 ### [How to become a data scientist as a psychology/neuroscience PhD student](https://williamthyer.github.io/posts/2022/1/phd_to_data_science/)  
 
 ## Posts & Articles
+### [Continuity of Splines video](https://www.youtube.com/watch?v=jvPPXbo87ds)
 ### [Why AI is Harder than We Think](http://williamthyer.github.io/files/mitchel_ai_preprint.pdf)
 ### [What’s the deal with “brainwaves”?](https://yohanjohn.com/neurologism/whats-the-deal-with-brainwaves)  
 ### [The Scaling Hypothesis](https://www.gwern.net/Scaling-hypothesis)  
@@ -86,4 +81,3 @@ AGI, philosophy, ethics, etc.
 ### [Another List of Assembled Ortholinear Split Keyboards](https://www.tryorthokeys.com/split)
 ### [ErgoMechKeyboards Subreddit](https://www.reddit.com/r/ErgoMechKeyboards/)
 ### [Ergonomics Subreddit](https://www.reddit.com/r/Ergonomics/)
-### [Falba.tech custom split keyboards](https://falba.tech/customize-your-keyboard/)
