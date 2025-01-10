@@ -10,7 +10,7 @@ redirect_from:
 
 About me
 ======
-My name is William Thyer. I am a data scientist at a healthcare technology company. I received my PhD in Psychology at the University of Chicago in 2023. I was previously a data science intern at [Spark Neuro](https://medical.sparkneuro.com/) in 2021 and at [Intuitive Surgical](https://www.intuitive.com/en-us) in 2022. You can access my [resume here](http://williamthyer.github.io/files/Thyer_William_Resume.pdf) and [Github here](https://github.com/WilliamThyer).
+My name is William Thyer. I am a senior data scientist at a healthcare technology company. I received my PhD in Psychology at the University of Chicago in 2023. I was previously a data science intern at [Spark Neuro](https://medical.sparkneuro.com/) in 2021 and at [Intuitive Surgical](https://www.intuitive.com/en-us) in 2022. You can access my [resume here](http://williamthyer.github.io/files/Thyer_William_Resume.pdf) and [Github here](https://github.com/WilliamThyer).
 
 My research and internships
 ======
