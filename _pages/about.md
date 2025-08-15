@@ -10,7 +10,7 @@ redirect_from:
 
 About me
 ======
-I’m William Thyer, a Senior Data Scientist at [Cohere Health](https://coherehealth.com/). I have 8 years of experience in solving difficult problems with data and maching learning. I earned my PhD in Neuroscience from the University of Chicago in 2023. Before that, I interned at Spark Neuro in 2021 and Intuitive Surgical in 2022. Here is my [resume](https://williamthyer.github.io/files/Thyer_William_Resume.pdf), [portfolio](https://williamthyer.github.io/portfolio/), [Github](https://github.com/WilliamThyer), [Google Scholar](https://williamthyer.github.io/publications/), and [blog](https://williamthyer.github.io/blog/).
+I’m William Thyer, a Senior Data Scientist at [Cohere Health](https://coherehealth.com/). I have 8 years of experience solving difficult problems with data and maching learning. I earned my PhD in Neuroscience from the University of Chicago in 2023. Before that, I interned at [Spark Neuro](https://sparkneuro.com/) in 2021 and [Intuitive Surgical](https://www.intuitive.com/en-us) in 2022. Here is my [resume](https://williamthyer.github.io/files/Thyer_William_Resume.pdf), [portfolio](https://williamthyer.github.io/portfolio/), [Github](https://github.com/WilliamThyer), [Google Scholar](https://williamthyer.github.io/publications/), and [blog](https://williamthyer.github.io/blog/).
 
 My experience
 ======
