@@ -10,12 +10,19 @@ redirect_from:
 
 About me
 ======
-My name is William Thyer. I am a senior data scientist at a healthcare technology company. I received my PhD in Psychology at the University of Chicago in 2023. I was previously a data science intern at [Spark Neuro](https://medical.sparkneuro.com/) in 2021 and at [Intuitive Surgical](https://www.intuitive.com/en-us) in 2022. You can access my [resume here](http://williamthyer.github.io/files/Thyer_William_Resume.pdf) and [Github here](https://github.com/WilliamThyer).
+I’m William Thyer, a Senior Data Scientist at [Cohere Health](https://coherehealth.com/). I have 8 years of experience in solving difficult problems with data and maching learning. I earned my PhD in Neuroscience from the University of Chicago in 2023. Before that, I interned at Spark Neuro in 2021 and Intuitive Surgical in 2022. Here is my [resume](https://williamthyer.github.io/files/Thyer_William_Resume.pdf), [portfolio](https://williamthyer.github.io/portfolio/), [Github](https://github.com/WilliamThyer), [Google Scholar](https://williamthyer.github.io/publications/), and [blog](https://williamthyer.github.io/blog/).
 
-My research and internships
+My experience
 ======
-My academic research involved designing and conducting experiments to better understand human memory and attention. I worked in the [Awh/Vogel Lab](https://awhvogellab.com) as a researcher from 2018-2023. I have developed open-source data analysis software for psychology and neuroscience research. My internship at Spark Neuro focused on developing machine learning tools and data visualizations to detect and monitor human neurological disorders. In my internship at Intuitive Surgical, I developed machine learning-based systems for providing feedback to surgeons during robotic surgeries.
+Since 2023, I have worked at Cohere Health as a data scientist. I trained, deployed, and monitored a suite of ML models that have approved hundreds of thousands of insurance prior auth requests. I also engineered data assets that inform executive decision-making and support product development.
 
-Contact info
+From 2018–2023, I worked in the [Awh/Vogel Lab](https://awhvogellab.com/) using machine learning to understand human memory. I conducted experiments, built open-source analysis tools, and published papers in research journals.
+
+At Spark Neuro, I developed machine learning tools and visualizations to detect and monitor neurological disorders. At Intuitive Surgical, I built ML systems to provide real-time feedback to surgeons during robotic surgery training.
+
+My favorite posts
 ======
-The best way to reach me is through my personal gmail account (thyerwilliam). To look at my code, you can check out my [github page](https://github.com/WilliamThyer). I'm active on Twitter [@WThyer](https://twitter.com/WThyer) where I post updates of my research and blog posts. You can also check out my full list of [academic publications](https://williamthyer.github.io/publications/), my [data science portfolio](https://williamthyer.github.io/portfolio/), and my [blog](https://williamthyer.github.io/blog/).
+[Calm Hands, help reduce nail-biting using computer vision and AI](https://williamthyer.github.io/posts/2023/3/calm-hands/)  
+[Advice for becoming a data scientist as a psychology/neuroscience PhD student](https://williamthyer.github.io/posts/2022/1/phd_to_data_science/)  
+[Visualizing and Analyzing Bicycle Infrastructure using OSMnx](https://williamthyer.github.io/posts/2021/4/bike_networks/)  
+
