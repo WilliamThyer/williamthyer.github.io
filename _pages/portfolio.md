@@ -3,40 +3,52 @@ layout: archive
 title: "Portfolio"
 permalink: /portfolio/
 author_profile: true
+feature_row:
+  - image_path: calm-hands/app_demo.gif
+    alt: "Calm Hands application demo"
+    title: "Calm Hands - AI-Powered Habit Breaking"
+    excerpt: "Desktop application that provides real-time feedback on nail-biting using computer vision and a fine-tuned deep neural network. Built complete training dataset and iteratively improved model performance."
+    url: "https://williamthyer.github.io/posts/2023/3/calm-hands/"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+  - image_path: thyer_et_al_2022/thyer_2022_fig.png
+    alt: "EEG research visualization"
+    title: "EEG Visual Working Memory Decoding"
+    excerpt: "Published research in *Psychological Science* journal. Designed and conducted large-scale cognitive neuroscience experiments with 50+ participants, preprocessing neural data and classifying cognitive states."
+    url: "https://williamthyer.github.io/files/Thyer_et_al_2022.pdf"
+    btn_label: "Read Paper"
+    btn_class: "btn--primary"
+  - image_path: heuristics_ai/heuristic.gif
+    alt: "Fighting game AI demonstration"
+    title: "Competitive Fighting Game with AI"
+    excerpt: "Complex fighting game built in Python with PyGame featuring challenging heuristic-based AI that adapts and responds in real-time during gameplay."
+    url: "https://williamthyer.github.io/posts/2022/1/heuristic_ai/"
+    btn_label: "View Project"
+    btn_class: "btn--primary"
+feature_row2:
+  - image_path: bike_networks/best_worst_cities.png
+    alt: "Bicycle network visualization"
+    title: "Bicycle Infrastructure Analysis"
+    excerpt: "Comprehensive visualization and analysis of bicycle networks in major US cities using OSMnx and Matplotlib. Quantified and compared network connectivity across urban areas."
+    url: "https://williamthyer.github.io/posts/2021/4/bike_networks/"
+    btn_label: "Explore Analysis"
+    btn_class: "btn--primary"
+  - image_path: locations_of_lines/locations_of_lines.gif
+    alt: "Interactive line art demonstration"
+    title: "Interactive Generative Line Art"
+    excerpt: "Web-based interactive application using Bokeh library with Python backend. Efficiently generates complex visual patterns using NumPy matrix operations for real-time rendering."
+    url: "https://williamthyer.github.io/posts/2020/11/locations_of_lines/"
+    btn_label: "Try App"
+    btn_class: "btn--primary"
+  - image_path: eeg_coef_plotting/coef.gif
+    alt: "EEG coefficient visualization"
+    title: "EEG Machine Learning Visualization"
+    excerpt: "Advanced data visualization for understanding EEG machine learning models. Features animated coefficient visualization with temporal information using Matplotlib.Animation and spatial back-projection."
+    url: "https://williamthyer.github.io/posts/2020/10/eeg_coef_plotting/"
+    btn_label: "View Viz"
+    btn_class: "btn--primary"
 ---
 
-### [Calm Hands, help reduce nail-biting using computer vision and AI](https://williamthyer.github.io/posts/2023/3/calm-hands/)
-* Create a TKinter desktop application that provides real time feedback on nail-biting
-* Uses a fine-tuned deep neural network to classify frames from the webcam
-* Built a training/testing dataset from scratch, and modified it based on model performance. 
-<img src="https://williamthyer.github.io/images/calm-hands/app_demo.gif" alt="drawing" width="550"/>
+{% include feature_row_clickable %}
 
-### [Decoding visual working memory load from EEG, published in *Psychological Science* journal](https://williamthyer.github.io/files/Thyer_et_al_2022.pdf)
-* Design, program, and conduct large-scale cognitive neuroscience experiments (50+ participants, +100 sessions)
-* Preprocessing and statistical analysis of human behavioral and neural data
-* Classification of cognitive states from neural data with Scikit-Learn   
-<img src="https://williamthyer.github.io/images/thyer_et_al_2022/thyer_2022_fig.png" alt="drawing" width="550"/> 
-
-### [Competitive fighting game with heuristic-based AI](https://williamthyer.github.io/posts/2022/1/heuristic_ai/)  
-* Create complex fighting game in Python with PyGame   
-* Develop challenging AI using heuristics 
-* Deploy AI in real-time during gameplay  
-<img src="https://williamthyer.github.io/images/heuristics_ai/heuristic.gif" alt="drawing" width="500"/> 
-
-### [Visualizing and Analyzing Bicycle Infrastructure using OSMnx](https://williamthyer.github.io/posts/2021/4/bike_networks/)  
-* Visualize complex bicycle networks in major US cities with Matplotlib  
-* Quantify and compare networks  
-* Query OpenStreetMap database using OSMnx  
-<img src="https://williamthyer.github.io/images/bike_networks/best_worst_cities.png" alt="drawing" width="500"/>  
-
-### [Interactive Generative Line Art App using Bokeh and Numpy](https://williamthyer.github.io/posts/2020/11/locations_of_lines/)
-* Create an interactive app using the Bokeh library  
-* Use Bokeh server and Python backend to run app in-browser  
-* Efficiently generate Numpy matrices to create patterns  
-<img src="https://williamthyer.github.io/images/locations_of_lines/locations_of_lines.gif" alt="drawing" width="500"/>   
-
-### [Visualizing EEG Machine Learning Model using Animated Data Visualization](https://williamthyer.github.io/posts/2020/10/eeg_coef_plotting/)
-* Data visualization to understand EEG machine learning model  
-* Animate model coefficients to include temporal information using Matplotlib.Animation  
-* Back-project model coefficients using Scipy.Interpolate  
-<img src="https://williamthyer.github.io/images/eeg_coef_plotting/coef.gif" alt="drawing" width="500"/>  
+{% include feature_row_clickable id="feature_row2" %}  
