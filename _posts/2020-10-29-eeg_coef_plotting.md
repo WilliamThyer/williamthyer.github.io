@@ -1,5 +1,5 @@
 ---
-title: 'Plotting timecourse of coefficients from EEG classification model using scipy.interpolate and matplotlib.animation'
+title: 'Plotting timecourse of EEG ML model coefficients with matplotlib.animation'
 date: 2020-10-29
 permalink: /posts/2020/10/eeg_coef_plotting/
 tags:
