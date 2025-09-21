@@ -26,7 +26,7 @@ feature_row:
 
 Welcome!
 ======
-I’m William Thyer. I'm a Senior Data Scientist at a healthcare technology company. I earned my PhD in Neuroscience from the University of Chicago in 2023. I've spent the last 8 years solving difficult problems with data and machine learning. I like cognitive science, bicycles, remote work, and cities.
+I’m William Thyer. I work remotely as a data scientist in Chicago, IL. I earned my PhD in Neuroscience from the University of Chicago in 2023. I've spent the last 8 years solving difficult problems with data and machine learning. I like cognitive science, bicycles, remote work, and cities.
 
 Favorite Posts
 ======
