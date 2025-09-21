@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "William Thyer"
 title_separator          : "-"
 name                     : &name "William Thyer, PhD"
-description              : &description "Data Scientist at a healthcare technology company. PhD in Psychology."
+description              : &description "Data scientist. PhD in neuroscience. Bicycles, cities, and remote work."
 url                      : https://williamthyer.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "williamthyer/williamthyer.github.io"
@@ -83,12 +83,12 @@ analytics:
 author:
   name             : "William Thyer, PhD"
   avatar           : "profile.jpg"
-  bio              : "Data Scientist at a healthcare technology company. PhD in Psychology."
-  location         : "Chicago, Il"
+  bio              : "Data scientist. PhD in neuroscience. Bicycles, cities, and remote work."
+  location         : "Chicago, IL"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=UY2PMbcAAAAJ"
-  email            : "thyer@uchicago.edu"
+  email            : 
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              : 
   bitbucket        :
@@ -110,7 +110,7 @@ author:
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "WThyer"
+  twitter          : 
   vine             :
   weibo            :
   xing             :

@@ -32,7 +32,7 @@ Favorite Posts
 ======
 [Calm Hands, help reduce nail-biting using computer vision and AI](https://williamthyer.github.io/posts/2023/3/calm-hands/)  
 [Advice for becoming a data scientist as a psychology/neuroscience PhD student](https://williamthyer.github.io/posts/2022/1/phd_to_data_science/)  
-[Visualizing and Analyzing Bicycle Infrastructure using OSMnx](https://williamthyer.github.io/posts/2021/4/bike_networks/)  
+[Visualizing and analyzing bicycle infrastructure using OSMnx](https://williamthyer.github.io/posts/2021/4/bike_networks/)  
 
 Portfolio Highlights
 =====
@@ -42,9 +42,5 @@ Portfolio Highlights
 
 Other Pages
 =====
-[Full Portfolio](https://williamthyer.github.io/portfolio)   
-[Blog Archive](https://williamthyer.github.io/blog)  
-[Resume](https://williamthyer.github.io/files/Thyer_William_Resume.pdf)  
-[Google Scholar](https://scholar.google.com/citations?hl=en&user=UY2PMbcAAAAJ)  
-[Github](https://github.com/WilliamThyer)  
+[Full Portfolio](https://williamthyer.github.io/portfolio) | [Blog Archive](https://williamthyer.github.io/blog) | [Resume](https://williamthyer.github.io/files/Thyer_William_Resume.pdf) | [Google Scholar](https://scholar.google.com/citations?hl=en&user=UY2PMbcAAAAJ) | [Github](https://github.com/WilliamThyer)  
 
