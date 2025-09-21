@@ -28,7 +28,7 @@ Welcome!
 ======
 I’m William Thyer. I am a Senior Data Scientist at a healthcare technology company. I earned my PhD in Neuroscience from the University of Chicago in 2023. I've spent the last 8 years solving difficult problems with data and machine learning. I like cognitive science, bicycles, remote work, and cities.
 
-My Favorite Posts
+Favorite Posts
 ======
 [Calm Hands, help reduce nail-biting using computer vision and AI](https://williamthyer.github.io/posts/2023/3/calm-hands/)  
 [Advice for becoming a data scientist as a psychology/neuroscience PhD student](https://williamthyer.github.io/posts/2022/1/phd_to_data_science/)  
