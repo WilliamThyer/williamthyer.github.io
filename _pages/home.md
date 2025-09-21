@@ -24,9 +24,9 @@ feature_row:
     url: "https://williamthyer.github.io/posts/2020/10/eeg_coef_plotting/"
 ---
 
-Welcome to my website!
+Welcome!
 ======
-I’m William Thyer, a Senior Data Scientist at a healthcare technology company. I earned my PhD in Neuroscience from the University of Chicago in 2023. I've spent the last 8 years solving difficult problems with data and machine learning. I like cognitive science, bicycles, remote work, and cities.
+I’m William Thyer. I am a Senior Data Scientist at a healthcare technology company. I earned my PhD in Neuroscience from the University of Chicago in 2023. I've spent the last 8 years solving difficult problems with data and machine learning. I like cognitive science, bicycles, remote work, and cities.
 
 My Favorite Posts
 ======
@@ -40,4 +40,12 @@ Portfolio Highlights
 {% include feature_row %}
 
 {% include feature_row id="feature_row2" %}
+
+Other Pages
+=====
+[Full Portfolio](https://williamthyer.github.io/portfolio)   
+[Blog Archive](https://williamthyer.github.io/blog)  
+[Resume](https://williamthyer.github.io/files/Thyer_William_Resume.pdf)  
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=UY2PMbcAAAAJ)  
+[Github](https://github.com/WilliamThyer)  
 
