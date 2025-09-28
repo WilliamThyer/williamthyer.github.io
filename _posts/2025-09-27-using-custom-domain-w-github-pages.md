@@ -18,18 +18,21 @@ I registered a domain with [Cloudflare Registrar](https://www.cloudflare.com/pro
 
 Go to your Cloudflare dashboard. Under `DNS` > `Records`, go to `DNS Management` for your custom domain.
 
-For the apex domain (<your_custom_domain.com>):  
->Type: CNAME  
->Name: @   
->Target: <your_current_github_page>.github.io  
->Proxy status: Proxied (orange cloud)  
-
+For the apex domain (`your_custom_domain.com`):  
+```
+Type: CNAME  
+Name: @   
+Target: your_current_github_page.github.io  
+Proxy status: Proxied (orange cloud)  
+```
 
 For the www subdomain (optional, but recommended):  
->Type: CNAME  
->Name: www  
->Target: <your_current_github_page>.github.io  
->Proxy status: Proxied (orange cloud)  
+```
+Type: CNAME  
+Name: www  
+Target: your_current_github_page.github.io  
+Proxy status: Proxied (orange cloud)  
+```
 
 <img src="https://williamthyer.github.io/images/custom_domain/dns_management.png" alt="drawing" width="800"/>
 
