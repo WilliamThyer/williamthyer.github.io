@@ -2,7 +2,7 @@
 layout: archive
 title: "Portfolio"
 permalink: /portfolio/
-author_profile: true
+author_profile: false
 feature_row:
   - image_path: calm-hands/app_demo_w_padding.gif
     alt: "Calm Hands application demo"
