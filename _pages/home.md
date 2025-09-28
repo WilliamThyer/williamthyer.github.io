@@ -7,20 +7,20 @@ redirect_from:
   - /home/
   - /home.html
 feature_row:
-  - image_path: calm-hands/app_demo.gif
+  - image_path: calm-hands/app_demo_w_padding.gif
     alt: "Calm Hands application demo"
     title: "Calm Hands: Stop Nail Biting with AI"
-    excerpt: "Desktop application that provides real-time feedback on nail-biting using computer vision and a fine-tuned deep neural network. Built complete training dataset and iteratively improved model performance."
+    excerpt: "AI app that provides real-time feedback on nail-biting using a fine-tuned deep neural network."
     url: "https://williamthyer.github.io/posts/2023/3/calm-hands/"
-  - image_path: bike_networks/best_worst_cities.png
+  - image_path: bike_networks/best_worst_cities_w_padding.png
     alt: "Bicycle network visualization"
     title: "Analyzing Bicycle Infrastructure in Python"
-    excerpt: "Comprehensive visualization and analysis of bicycle networks in major US cities using OSMnx and Matplotlib."
+    excerpt: "Visualization and analysis of bicycle networks in major US cities with OSMnx and Python."
     url: "https://williamthyer.github.io/posts/2021/4/bike_networks/"
-  - image_path: eeg_coef_plotting/coef.gif
+  - image_path: eeg_coef_plotting/coef_w_padding.gif
     alt: "EEG coefficient visualization"
-    title: "Visualize ML Weights from EEG"
-    excerpt: "Advanced data visualization for understanding EEG machine learning models. Features animated coefficient visualization with temporal information using Matplotlib.Animation and spatial back-projection."
+    title: "Visualize EEG ML Model Coefficients"
+    excerpt: "Animated visualization of ML model coefficients trained on EEG data."
     url: "https://williamthyer.github.io/posts/2020/10/eeg_coef_plotting/"
 ---
 
