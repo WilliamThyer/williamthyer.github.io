@@ -28,7 +28,7 @@ Welcome!
 ======
 I’m William Thyer. I work remotely as a data scientist in Chicago, IL. I earned my PhD in Neuroscience from the University of Chicago in 2023. I've spent the last 8 years solving difficult problems with data and machine learning. I like cognitive science, bicycles, remote work, and cities. 
 
-Here, on my personal site you can view my [Data Science Portfolio](https://williamthyer.com/portfolio/), my [Blog](https://williamthyer.com/blog/), and learn more [About Me](https://williamthyer.com/about/).
+Check out my [Data Science Portfolio](https://williamthyer.com/portfolio/), my [Blog](https://williamthyer.com/blog/), and learn more [About Me](https://williamthyer.com/about/).
 
 Favorite Posts
 ======
