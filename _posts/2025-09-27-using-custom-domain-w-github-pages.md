@@ -8,7 +8,7 @@ tags:
 
 <!-- <img src="" alt="drawing" width="800"/> -->
 
-I just setup a custom domain I registered with Cloudflare for my Jekyll Github page. I'm not an expert but here's how I did it. This assumes you already have a website [Jekyll-based](https://github.com/jekyll/jekyll) Github page (I forked mine from [AcademicPages](https://github.com/academicpages/academicpages.github.io)). 
+I setup a custom domain registered with Cloudflare for my Github page. So now my website domain is `williamthyer.com` instead of `williamthyer.github.io`. Here's a brief tutorial on how to do it. This tutorial assumes you already have a [Jekyll-based](https://github.com/jekyll/jekyll) Github page (I forked mine from [AcademicPages](https://github.com/academicpages/academicpages.github.io)). 
 
 ## Step 1. Register a domain with Cloudflare
 I registered a domain with [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/). I opted for 3 years all at once for just $31.
