@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "Welcome!"
 excerpt: ""
 author_profile: true
 redirect_from: 
@@ -24,8 +24,6 @@ feature_row:
     url: "https://williamthyer.github.io/posts/2020/10/eeg_coef_plotting/"
 ---
 
-Welcome!
-======
 I’m William Thyer. I work remotely as a data scientist in Chicago, IL. I earned my PhD in Neuroscience from the University of Chicago in 2023. I've spent the last 8 years solving difficult problems with data and machine learning. I like cognitive science, bicycles, remote work, and cities. 
 
 Check out my [Data Science Portfolio](https://williamthyer.com/portfolio/), my [Blog](https://williamthyer.com/blog/), and learn more [About Me](https://williamthyer.com/about/).

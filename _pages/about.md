@@ -1,12 +1,10 @@
 ---
 permalink: /about/
-title: ""
+title: "About Me"
 excerpt: ""
 author_profile: true
 ---
 
-About me
-======
 I’m William Thyer, I work remotely as a data scientist in Chicago, IL. I have 8 years of experience solving difficult problems with data and maching learning. I earned my PhD in Neuroscience from the University of Chicago in 2023. I like cognitive science, bicycles, remote work, and cities.
 
 My professional experience
